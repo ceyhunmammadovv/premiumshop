@@ -1,0 +1,113 @@
+.chapternav1{
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    height: 100px;
+    z-index: 9987;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(245,245,247,0.6);
+}
+.chapternav-wrapper{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+}
+.chapternav-items{
+    padding-bottom: 49px;
+    margin: 0 34px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    list-style: none;
+}
+.chapternav-item1{
+    display: inline-block;
+    animation: chapternav-slidein 350ms backwards;
+    animation-duration: 350ms;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    animation-name: chapternav-slidein;
+    vertical-align: top;
+    margin: 0 -.11765em;
+    white-space: nowrap;
+}
+.chapternav-item1:first-child{
+    margin-left: 0;
+    padding-left: 4px;
+}
+.chapternav-link{
+    color: #f5f5f7;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    margin-top: 3px;
+    position: relative;
+    z-index: 1;
+}
+.chapternav-item-mac .chapternav-icon{
+    color: white;
+    width: 73px;
+    height: 54px;
+    background-size: 73px 54px;
+    background-repeat: no-repeat;
+    background-image: url("../image/mac.svg");
+}
+.chapternav-icon{
+    background: center bottom no-repeat;
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.chapternav-item-ipad .chapternav-icon{
+    background-size: 41px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/ipad/home/bo/images/chapternav/ipadpro_light__eksnhatoqzu6_large.svg");
+    width: 41px;
+}
+.chapternav-item-iphone .chapternav-icon{
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url("../image/iphone.svg");
+    width: 37px;
+}
+.chapternav-item-watch .chapternav-icon{
+    width: 23px;
+    height: 54px;
+    background-size: 23px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_se__en4ntkxi5guq_large.svg");
+}
+.chapternav-item-tv .chapternav-icon{
+    background-size: 69px 54px;
+    background-repeat: no-repeat;
+    margin: 5px -2em;
+    background-image: url("../image/tv.svg");
+}
+
+.chapternav-item1 {
+    padding: 0px 40px;
+}
+.chapternav-label1{
+    color: black;
+}
+.heroimg1{
+    object-fit: cover;
+    width: 1440px;
+    height:500px;
+    background-size: 1440px 500px;
+}

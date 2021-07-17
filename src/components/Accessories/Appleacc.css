@@ -1,0 +1,241 @@
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.items{
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+    /* display: flex; */
+    flex-direction: column;
+    padding: 60px 15px 30px;
+    margin: 0px 0 0 -1px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    transition: border-color .2s ease;
+}
+.item-info{
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.image{
+    flex: 1 1 230px;
+    max-height: 230px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+.image  img {
+    height: 230px;
+}
+.price{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto -10px 35px;
+    flex: 1 1 10%;
+}
+.item-button {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: .01em;
+    background: #0a84ff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    min-height: 60px;
+    margin-left: 380px;
+    flex: 1 1 100%;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+.item-name{
+    align-items: center;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 5px;
+    color: #000;
+    text-decoration: none;
+    transition: color .3s linear;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    word-break: break-word;
+}
+.item-bottom-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+.item-prices{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto -15px 35px;
+    flex: 1 1 100%;
+}
+.prices-wrapper{
+    flex: 1 1 59%;
+    max-width: 60%;
+    padding: 0 15px;
+    position: relative;
+}
+.colors img{
+    width: 32px;
+    height: 32px;
+    /* color: #1d1d1f; */
+    border-color: #d2d2d7;
+    background-color: hsla(0,0%,100%,.8); 
+ 
+}
+.colors{
+    margin: 5px;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.color-selector{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.price{
+    padding-left: 9px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+.item-sku{
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+}
+.chapternav{
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    height: 100px;
+    z-index: 9987;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.90);
+}
+.chapternav-wrapper{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+}
+.chapternav-items{
+    padding-bottom: 49px;
+    margin: 0 34px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    list-style: none;
+}
+.chapternav-item{
+    display: inline-block;
+    animation: chapternav-slidein 350ms backwards;
+    animation-duration: 350ms;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    animation-name: chapternav-slidein;
+    vertical-align: top;
+    margin: 0 -.11765em;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+.chapternav-item:first-child{
+    margin-left: 0;
+    padding-left: 4px;
+}
+.chapternav-link{
+    color: #f5f5f7;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    margin-top: 3px;
+    position: relative;
+    z-index: 1;
+}
+
+.chapternav-icon{
+    background: center bottom no-repeat;
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.chapternav-item-ipad .chapternav-icon{
+    background-size: 41px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/ipad/home/bo/images/chapternav/ipadpro_light__eksnhatoqzu6_large.svg");
+    width: 41px;
+}
+.chapternav-item-iphone .chapternav-icon{
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url("../image/iphone.svg");
+    width: 37px;
+}
+.chapternav-item-watch .chapternav-icon{
+    width: 23px;
+    height: 54px;
+    background-size: 23px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/watch/home/am/images/overview/icons/watch_nav_se__en4ntkxi5guq_large.svg");
+}
+.chapternav-item-tv .chapternav-icon{
+    background-size: 69px 54px;
+    background-repeat: no-repeat;
+    margin: 5px -2em;
+    background-image: url("../image/tv.svg");
+}

@@ -1,0 +1,286 @@
+.chapternav3{
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    height: 100px;
+    z-index: 9987;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #F2F2F3;
+}
+.chapternav-wrapper{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+}
+.chapternav-items{
+    padding-bottom: 49px;
+    margin: 0 34px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    list-style: none;
+}
+.chapternav-item{
+    display: inline-block;
+    animation: chapternav-slidein 350ms backwards;
+    animation-duration: 350ms;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    animation-name: chapternav-slidein;
+    vertical-align: top;
+    margin: 0 -.11765em;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+.chapternav-item:first-child{
+    margin-left: 0;
+    padding-left: 4px;
+}
+.chapternav-link2{
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    margin-top: 3px;
+    position: relative;
+    z-index: 1;
+}
+.chapternav-item-airpods .chapternav-icon2{
+    margin-top: -2px;
+    margin-bottom: 9px;
+    background-size: 27px 54px;
+    background-repeat: no-repeat;
+    width: 27px;
+    background-image: url("https://www.apple.com/v/airpods/o/images/chapternav/airpods_light__f4mfehxvk56q_large.svg");
+}
+.chapternav-icon2{
+    background: center bottom no-repeat;
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.chapternav-item-airpodspro .chapternav-icon2{
+    background-size: 35px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/airpods/o/images/chapternav/airpods_pro_light__ets5a19rt3au_large.svg");
+    width: 35px;
+}
+.chapternav-item-airpodsmax .chapternav-icon2{
+    background-size: 32px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/airpods/o/images/chapternav/airpods_max_light__cvaaddhgazqu_large.svg");
+    width: 32px;
+}
+.chapternav-label2{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    margin: 0;
+}
+.airpods_main{
+    text-align: center;
+}
+.section_max_width{
+    margin-left: auto;
+    margin-right: auto;
+    flex-basis: 91.66667%;
+    max-width: 91.66667%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1680px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+}
+.section_max_width h2{
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #1d1d1f;
+}
+.section_max_width p{
+    font-size: 28px;
+    display: block;
+    margin-bottom: .4em;
+    padding: 0px 145px;
+    line-height: 1.4;
+    max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    letter-spacing: .007em;
+
+}
+.section_max_width{
+    position: relative;
+text-align: center;
+padding-top: 137px;
+padding-bottom: 112px;
+}
+
+.product_section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1680px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+}
+.tile_airpods{
+    flex-basis: 100%;
+    flex-direction: column;
+    display: flex;
+}
+.airpods_text{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 82px;
+    flex-grow: 1;
+    padding-left: 5.375%;
+    padding-right: 5.375%;
+}
+.visuallyhidden{
+    text-align: center;
+    font-weight: 600;
+    color: #1d1d1f;
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+.tile-headline{
+    background-image: url("https://www.apple.com/v/airpods/o/images/overview/logo_airpods__gaffppssyd2e_large_2x.png");
+    width: 269px;
+    height: 62px;
+    background-size: 269px 62px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -134.5px;
+    margin-top: 0;
+}
+.links-inline{
+    margin-top: 27px;
+    margin-left: 0;
+    margin-right: 0;
+    list-style: none;
+}
+.airpods_img{
+    overflow: hidden;
+}
+.tile-image{
+    background-image: url("https://www.apple.com/v/airpods/o/images/overview/airpods__dh7xkbort402_large_2x.jpg");
+    width: 417px;
+    height: 452px;
+    background-size: 417px 452px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -208.5px;
+}
+.tile-image:after{
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 2px solid #dedede;
+}
+.btn{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 18px;
+    background: #0071e3;
+    color: #fff;
+}
+
+.tile-image2{
+    background-image: url("https://www.apple.com/v/airpods/o/images/overview/airpods_pro__qwgxmyvspfey_large_2x.jpg");
+    width: 417px;
+    height: 452px;
+    background-size: 417px 452px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -208.5px;
+}
+
+.airpodspro_img{
+    overflow: hidden;
+}
+.airpodsmax_main{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1680px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+}
+.airpodsmax_hero{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 126px;
+    text-align: center;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.airpodsmax_img{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr max-content;
+    gap: 0 0;
+    grid-template-areas:
+        "."
+        ".";
+        flex-basis: 100%;
+    max-width: 100%;
+    background-image: url("https://www.apple.com/v/airpods/o/images/overview/airpods_max__f265q4g4ddym_large_2x.png");
+    background-size: contain;
+    max-width: 971px;
+    margin: 0 auto;
+    pointer-events: none;
+    position: relative;
+    z-index: 2;
+}

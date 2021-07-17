@@ -1,0 +1,43 @@
+let ipadair = [
+    {
+        src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-blue-202009?wid=940&hei=1112&fmt=png-alpha&.v=1598650644000",
+        name: "iPad Air 256GB Wi-Fi+4G",
+        id: 35,
+        price: 2230,
+        quantity: 1,
+        model: "MYH22RK/A",
+        color: ["Space Gray", "Silver", "Rose Gold", "Green", "Sky Blue"],
+        label: "iPad",
+    },
+    {
+        src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-gold-202009?wid=940&hei=1112&fmt=png-alpha&.v=1598650644000",
+        name: "iPad Air 256GB Wi-Fi",
+        id: 36,
+        price: 1900,
+        quantity: 1,
+        model: "MYFT2RK/A",
+        color: ["Space Gray", "Silver", "Rose Gold", "Green", "Sky Blue"],
+        label: "iPad",
+    },
+    {
+        src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-spacegray-202009?wid=940&hei=1112&fmt=png-alpha&.v=1598650646000",
+        name: "iPad Air 64GB Wi-Fi+4G",
+        id: 37,
+        price: 1850,
+        quantity: 1,
+        model: "MYGW2RK/A",
+        color: ["Space Gray", "Silver", "Rose Gold", "Green", "Sky Blue"],
+        label: "iPad",
+    },
+    {
+        src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-silver-202009?wid=940&hei=1112&fmt=png-alpha&.v=1598650645000",
+        name: "iPad Air 64GB Wi-Fi",
+        id: 38,
+        price: 1530,
+        quantity: 1,
+        model: "MYFM2RK/A",
+        color: ["Space Gray", "Silver", "Rose Gold", "Green", "Sky Blue"],
+        label: "iPad",
+    },
+]
+export default ipadair

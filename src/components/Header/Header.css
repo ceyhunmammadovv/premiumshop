@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.nav{
+    display: block !important;
+    /* margin-top: 100px; */
+    object-fit: cover;
+    box-sizing: border-box;
+    position: relative;
+    /* padding-top: 0px; */
+    border-style: none;
+    /* overflow: visible; */
+    border-left-width: 0px;
+    border-right-width: 0px;
+    box-sizing: border-box;
+    margin-bottom: calc((var(--global-nav-collective-height) + var(--gutter-width)) * -1);
+    border-color: var(--gutter-color);
+    background-color: var(--gutter-color);
+    border-bottom-width: var(--gutter-width);
+    height: calc(var(--content-height) + var(--global-nav-collective-height) + var(--gutter-width));
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding-top: var(--global-nav-collective-height);
+    height: calc(var(--content-height) + var(--global-nav-collective-height));
+    width: 1440px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    /* position: absolute; */
+    left: calc(50% + 0px);
+    
+    /* left: 0px; */
+ 
+    transform: translatex(-50%);
+}
+.navbar{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.navbar li a{
+    text-align: left;
+    align-items: left;
+    font-size: 20px;
+    color: lightgray;
+    font-weight: 100;
+}
+
+.logo{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width:  160px;
+    height: 120px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.drop{
+    
+    display: flex;
+    position: relative;
+}
+.drop-open{
+    padding-top: 45px;
+    position: absolute;
+    z-index: 101;
+    top: 100%;
+    left: 0;
+    min-width: 240px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.8);
+    visibility: hidden;
+}
+.drop:hover .drop-open{
+    display: flex;
+    visibility: visible;
+    
+}
+.drop-open li:hover{
+    display: flex;
+    list-style: none;
+    text-decoration: underline;
+    
+}
+.drop-open li a{
+    display: block;
+    opacity: .6;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    padding: 12px 30px;
+    min-width: 200px;
+    text-decoration: none;
+    transition: opacity .2s ease;
+}
+.drop-open li{
+    display: block;
+border-bottom: 2px solid #272727;
+transition: background-color .2s ease;
+}

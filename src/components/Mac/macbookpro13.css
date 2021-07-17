@@ -1,0 +1,116 @@
+.chapternav1{
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    height: 105px;
+    z-index: 9987;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(245,245,247,0.6);
+}
+.chapternav-wrapper{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+}
+.chapternav-items{
+    padding-bottom: 120px;
+    margin: 0 34px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    list-style: none;
+}
+.chapternav-item1{
+    display: inline-block;
+    animation: chapternav-slidein 350ms backwards;
+    animation-duration: 350ms;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    animation-name: chapternav-slidein;
+    vertical-align: top;
+    margin: 0 -.11765em;
+    white-space: nowrap;
+}
+.chapternav-item1:first-child{
+    margin-left: 0;
+    padding-left: 4px;
+}
+.chapternav-link{
+    color: #f5f5f7;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    margin-top: 3px;
+    position: relative;
+    z-index: 1;
+}
+.chapternav-item-macbookair .chapternav-icon{
+    width: 52px;
+    height: 54px;
+    background-size: 52px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/macbookair_light__fj8r9488gr6u_large.svg");
+}
+.chapternav-icon{
+    background: center bottom no-repeat;
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.chapternav-item-macbookpro13 .chapternav-icon{
+    width: 51px;
+    height: 54px;
+    background-size: 51px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/macbook_pro_13_light__erjvypflcis2_large.svg");
+}
+.chapternav-item-macbookpro16 .chapternav-icon{
+    width: 58px;
+    height: 54px;
+    background-size: 58px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/macbook_pro_16_light__cialfoihbk02_large.svg");
+}
+.chapternav-item-imac24 .chapternav-icon{
+    width: 45px;
+    height: 54px;
+    background-size: 45px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/imac_24__e0tdvilut5qq_large.svg");
+}
+.chapternav-item-macmini .chapternav-icon{
+    width: 28px;
+    height: 54px;
+    background-size: 28px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/mac_mini_light__chxdj29efvrm_large.svg");
+}
+.chapternav-item-accessories2 .chapternav-icon{
+    width: 33px;
+    height: 54px;
+    background-size: 33px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/mac_accessories_light__bow96z0024qa_large.svg");
+
+}
+.item1{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px ​0px 0px -1px !important;
+}
