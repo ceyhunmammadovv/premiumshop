@@ -1,2 +1,2 @@
 
-https://premiumshop.github.io
+https://premiumshop.github.io/premiumshop
