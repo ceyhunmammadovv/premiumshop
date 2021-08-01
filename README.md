@@ -1,134 +1,43 @@
-import React from 'react'
-import 'antd/dist/antd.css';
-import "../Home/Home.css"
-// import img1 from "../image/iphone12pro_hero.jpg"
-import Slider from '../Carousel/Carousel';
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import { CgShoppingCart } from 'react-icons/cg';
-import { useDispatch, useSelector } from "react-redux"
-import cardata from "../data/carousel"
-import accdata from "../data/accdata"
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-const responsive = {
-    superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 5
-    },
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 3
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1
-    }
-};
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-
-function Home() {
-    //    const [color, setColor] = useState("black")
-    const handleClick = (id) => {
-        // setColor(img)
-        var x = document.getElementById(`${id}`)
-        // var im = img
-        // x.src = `${im}`
-    }
-    const dispatch = useDispatch()
-    const cartData = useSelector(state => state.cartReducer)
-    const handleAddCart = (index) => {
-        const addedItem = cartData.find(i => i.id === index.id)
-        // const currentColor = index.img.map(index => index)
-        // console.log(currentColor)
-
-        if (addedItem) {
-            addedItem.quantity += 1
-        } else {
-            dispatch({ type: "ADD_CART", payload: { ...index, } })
-        }
-
-        console.log(index)
-    }
-
-    return (
-        <div>
-            <div>
-                <Slider />
-            </div>
-            <br />
-            <br />
-            <Carousel responsive={responsive}>
-                {cardata.map((index, key) =>
-                    <div className="main">
-                        <div key={key} className="card">
-                            <div className="images">
-                                <img id={index.model} src={index.src} alt="phone" />
-                            </div>
-                            <div className="name">
-                                <a href="#"> {index.name} </a>
-                            </div>
-                            <p className="item-sku"> Artikul: {index.model} </p>
-                            <div className="button1">
-                                <div className="prices">
-                                    <p>{index.price} AZN</p>
-                                </div>
-                                <div onClick={() => handleClick(index.src, index.model)} className="button" onClick={() => handleAddCart(index)}>
-                                    <CgShoppingCart />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                )}
-            </Carousel>
-            <br />
-            <br />
-
-            <Carousel responsive={responsive}>
-                {accdata.map((index, key) =>
-                    <div className="main">
-                        <div key={key} className="card">
-                            <div className="images">
-                                <img id={index.model} src={index.src} alt="phone" />
-                            </div>
-                            <div className="name">
-                                <a href="#"> {index.name} </a>
-                            </div>
-                            <p className="item-sku"> Artikul: {index.model} </p>
-                            <div className="button1">
-                                <div className="prices">
-                                    <p>{index.price} AZN</p>
-                                </div>
-                                <div onClick={() => handleClick(index.src, index.model)} className="button" onClick={() => handleAddCart(index)}>
-                                    <CgShoppingCart />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                )}
-            </Carousel>
-
-
-            {/* 
-            <div className="homepage_section">
-
-                <div className="iphone12pro_features">
-
-                    <img className="heroimg" src={img1} alt="" />
-                </div>
-
-            </div> */}
-
-
-        </div>
-
-
-    )
-}
-export default Home
-
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
