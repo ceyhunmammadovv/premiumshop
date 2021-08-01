@@ -1,2 +1,2 @@
 
-https://premiumshop.github.io/premiumshop
+https://ceyhunmammadovv.github.io/premiumshop/
