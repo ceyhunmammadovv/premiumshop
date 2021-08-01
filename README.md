@@ -1,2 +1,2 @@
 
-https://github.com/ceyhunmammadovv/premiumshop/src/components/image/logo.png
+https://premiumshop.github.io
