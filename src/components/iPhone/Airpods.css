@@ -214,6 +214,7 @@ padding-bottom: 112px;
     border-bottom: 2px solid #dedede;
 }
 .btn{
+    cursor: pointer;
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
@@ -230,7 +231,7 @@ padding-bottom: 112px;
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 18px;
-    background: #0071e3;
+    background: #9a9a9a;
     color: #fff;
 }
 

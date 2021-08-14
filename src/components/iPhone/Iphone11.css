@@ -113,3 +113,10 @@ background-size: 27px 54px;
     background-image: url("https://www.apple.com/v/iphone/home/az/images/chapternav/iphone_acc_dark__g5kvwtvsk2qa_large.svg");
     width: 35px;
 }
+.quantity{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 9px;
+}

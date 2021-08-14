@@ -37,7 +37,8 @@ padding-bottom: 36px;
     text-align: center;
     white-space: nowrap;
     border-radius: 980px;
-    background: #0071e3;
+    background: #888888;
+    border-color: #383838;
     color: #fff;
     font-size: 17px;
     line-height: 1.17648;
@@ -56,4 +57,16 @@ padding-bottom: 36px;
 }
 .ant-form-item-label > label {
     display: none;
+}
+.ant-btn-primary:hover{
+    border-color: #383838;
+    background-color: #5d5d5d;
+}
+.texts{
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    color: #737373;
 }

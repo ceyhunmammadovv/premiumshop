@@ -177,7 +177,7 @@ background-size: 27px 54px;
     position: absolute;
     width: inherit;
 }
-.btn{
+.btn55{
     cursor: pointer;
     display: inline-block;
     text-align: center;
@@ -186,8 +186,8 @@ background-size: 27px 54px;
     transform: matrix(1, 0, 0, 1, 0, -29.0047);
     opacity: 1;
     margin-top: 2rem;
-    background: #0071e3;
-    border-color: #0071e3;
+    background: #707070;
+    border-color: #4e4e4e;
     color: #fff;
     font-size: 17px;
     line-height: 1.23536;

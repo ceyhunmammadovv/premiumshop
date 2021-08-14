@@ -1,12 +1,33 @@
 import { NavLink } from 'react-router-dom'
 import "../iPhone/Iphonese.css"
 import iphonese from "../data/iphonese"
+import React, { useState } from "react"
+import { useDispatch, useSelector } from "react-redux"
+
 function Iphonese() {
+    const [color, setColor] = useState("black")
     const handleClick = (img, id) => {
+        setColor(img)
         var x = document.getElementById(`${id}`)
         var im = img
         x.src = `${im}`
+         }
+        const dispatch = useDispatch()
+        const cartData = useSelector(state => state.cartReducer)
+        const handleAddCart = (index) => {
+        const addedItem = cartData.find(i => Number(i.id) === Number(index.id))
+        const currentColor = index.color.map(index => index)
+        console.log(currentColor)
+
+        if (addedItem && currentColor.src === color) {
+            addedItem.quantity += 1
+        } else {
+            dispatch({ type: "ADD_CART", payload: { ...index, color: color } })
+        }
+
+        console.log(index)
     }
+
     return (
         <div className="row">
             <nav className="chapternav">
@@ -66,16 +87,6 @@ function Iphonese() {
                                 </a>
                             </NavLink>
                         </li>
-
-                        <li className="chapternav-item chapternav-item-iphone-xr">
-                            <NavLink to="/iphonexr">
-                                <a class="chapternav-link" href="#">
-                                    <figure class="chapternav-icon"> </figure>
-                                    <span class="chapternav-label">iPhone XR</span>
-                                </a>
-                            </NavLink>
-                        </li>
-
                         <li className="chapternav-item chapternav-item-airpods">
                             <NavLink to="/airpods">
                                 <a class="chapternav-link" href="#">
@@ -95,7 +106,7 @@ function Iphonese() {
                         </li>
 
                         <li className="chapternav-item chapternav-item-accessories">
-                            <NavLink to="/accessories">
+                            <NavLink to="/appleacc">
                                 <a class="chapternav-link" href="#">
                                     <figure class="chapternav-icon"> </figure>
                                     <span class="chapternav-label">Accessories</span>
@@ -108,7 +119,7 @@ function Iphonese() {
 
             {iphonese.map((index, key) =>
                 <div key={key} className="item1">
-                    <div className="image">
+                    <div className="image22">
                         <img id={index.model} src={index.color[0].src} alt="phone" />
                     </div>
                     <div className="item-info">
@@ -134,7 +145,10 @@ function Iphonese() {
                             </div>
                         </div>
                     </div>
-                    <div className="item-button">
+                    <div>
+                        <input className="quantity" defaultValue='1' onChange={(e) => dispatch({ type: "ARTIR", payload: index, val: e.target.value })}  type="number" />
+                    </div>
+                    <div onClick={() => handleAddCart(index)} className="item-button22">
                         <img src="https://cdn0.it4profit.com/files/7/catalog-add-cart-icon.svg" alt="" />
                     </div>
                 </div>

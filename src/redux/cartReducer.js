@@ -7,8 +7,13 @@ const cartReducer = (state = cart, action) => {
             return [...state, action.payload]
         case "DELETTE_ITEM":
             return state = state.filter(i => Number(i.id) !== Number(action.payload))
+        case "ARTIR":
+            let prod = action.payload
+            prod.quantity = action.val
+            return state
         default:
             return state
+        
     }
 }
 

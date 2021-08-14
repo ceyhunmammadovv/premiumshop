@@ -18,9 +18,6 @@ function Header() {
                 <li className="drop">
                     <NavLink to="/xiaomi">Xiaomi</NavLink>
                 </li>
-                <li className="drop">
-                    <NavLink to="/huawei">Huawei</NavLink>
-                </li>
                 <li>
                     <NavLink to="/appleacc">Accessories</NavLink>
                 </li>

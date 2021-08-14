@@ -22,13 +22,13 @@
     max-width: 100%;
     margin-bottom: 30px;
 }
-.image{
+.image44{
     flex: 1 1 230px;
     max-height: 230px;
     width: 100%;
     text-align: center;
     margin-bottom: 35px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .price{
 
@@ -38,10 +38,12 @@
     flex: 1 1 10%;
 }
 .item-button {
+    cursor: pointer;
     font-weight: 500;
     font-size: 18px;
     letter-spacing: .01em;
-    background: #0a84ff;
+    background: #838383;
+    border-color: #505050;
     display: flex;
     flex-wrap: wrap;
     align-content: center;

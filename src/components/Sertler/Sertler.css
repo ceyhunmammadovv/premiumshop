@@ -1,0 +1,24 @@
+.sertler-main{
+    padding-top: 30px;
+    color: #231f20;
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: 300;
+    margin: 10px 0;
+    position: relative;
+    /* height: 350px; */
+    padding-bottom: 20px;
+    margin: 0px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.sertler-text p{
+    padding-bottom: 10px;
+}
+.sertler-text{
+    padding-bottom: 40px;
+    margin: 0px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}

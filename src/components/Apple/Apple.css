@@ -111,3 +111,83 @@
     height:500px;
     background-size: 1440px 500px;
 }
+.heroimgs{
+    /* top: -500px; */
+    width: 1440px;
+    height: 400px !important;
+ 
+}
+.txt{
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'SamsungSharpSans' !important; */
+    display: inline-block;
+    font-weight: bold !important;
+    font-size: 35px;
+    margin-top: 120px;
+}
+.fold{
+    
+    display: block;
+    text-align: center;
+}
+.txt2{
+    text-align: center;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    /* color: #f5f5f7; */
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.txt3{
+    /* color: #f5f5f7; */
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+}
+.iphoness{
+    text-align: center;
+    /* padding-top: 47px; */
+    flex-grow: 0;
+    z-index: 4;
+    pointer-events: none;
+    margin-top: var(--global-nav-collective-height);
+    position: relative;
+}
+.heroimg9{
+    object-fit: cover;
+    box-sizing: border-box;
+    position: relative;
+    border-style: none;
+    overflow: visible;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    box-sizing: border-box; 
+   margin-bottom: calc((var(--global-nav-collective-height) + var(--gutter-width)) * -1);
+    border-color: var(--gutter-color);
+    background-color: var(--gutter-color);
+    border-bottom-width: var(--gutter-width);
+    height: calc(var(--content-height) + var(--global-nav-collective-height) + var(--gutter-width));
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding-top: var(--global-nav-collective-height);
+    height: calc(var(--content-height) + var(--global-nav-collective-height));
+    width: 1440px;
+    height: 587px;
+    background-size: 1440px 587px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    left: calc(50% + 0px);
+    transform: translatex(-50%);
+}

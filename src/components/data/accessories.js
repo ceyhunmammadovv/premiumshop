@@ -7,6 +7,12 @@ let accessories = [
         price: 549,
         model: " MWP22AM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWP22?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591634795000",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         name: "AirPods Max",
@@ -46,6 +52,12 @@ let accessories = [
         price: 349,
         model: "MV7N2AM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-charge-case-201910?wid=300&hei=390&fmt=png-alpha&.v=1570816694133",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-wireless-charge-case-201910?wid=300&hei=390&fmt=png-alpha&.v=1570816694068",
@@ -55,6 +67,12 @@ let accessories = [
         quantity: 1,
         model: "MV7N2AM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-wireless-charge-case-201910?wid=300&hei=390&fmt=png-alpha&.v=1570816694068",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airtag-4pack-select-202104_FV1?wid=890&hei=740&fmt=jpeg&qlt=80&.v=1617761668000",
@@ -64,6 +82,12 @@ let accessories = [
         quantity: 1,
         model: "MX542RU/A",
         label: "Accessories",
+        color: [
+            {
+        src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airtag-4pack-select-202104_FV1?wid=890&hei=740&fmt=jpeg&qlt=80&.v=1617761668000",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airtag-single-select-202104_FV1?wid=890&hei=740&fmt=jpeg&qlt=80&.v=1617761670000",
@@ -73,6 +97,12 @@ let accessories = [
         quantity: 1,
         model: "MX532RU/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airtag-single-select-202104_FV1?wid=890&hei=740&fmt=jpeg&qlt=80&.v=1617761670000",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MLA02?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1564098735372",
@@ -82,15 +112,27 @@ let accessories = [
         quantity: 1,
         model: "MLA02Z/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MLA02?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1564098735372",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-silver-select-202011_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=80&.v=1621278121000",
+            }
+        ]
     },
     {
-        src: "https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/resize:fill:540/bg:f6f6f6/q:100/plain/s3://catalog-products/180328125157033866/180412110122994517.jpg@webp",
+        src: "https://o.remove.bg/downloads/4e50ea80-aa53-4e48-a775-c25217dfb6c6/apple_mrme2ll_a_magic_mouse_2_space_1401104-removebg-preview.png",
         name: "Magic Mouse 2 Space Gray",
         id: 8,
         price: 230,
         model: "MRME2ZM/A",
         quantity: 1,
         label: "Accessories",
+        color: [
+            {
+                src: "https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/resize:fill:540/bg:f6f6f6/q:100/plain/s3://catalog-products/180328125157033866/180412110122994517.jpg@webp",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-select-202011_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=80&.v=1621278170000",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MLA22TQ?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1510186144758",
@@ -100,6 +142,12 @@ let accessories = [
         quantity: 1,
         model: "MLA22RU/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MLA22TQ?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1510186144758",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-silver-select-202011_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=80&.v=1621278121000",
+            }
+        ]
     },
     {
         src: "https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/resize:fill:540/bg:f6f6f6/q:100/plain/s3://catalog-products/180328125157907707/180412110112704260.jpg@webp",
@@ -109,6 +157,12 @@ let accessories = [
         quantity: 1,
         model: "MRMF2ZM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/resize:fill:540/bg:f6f6f6/q:100/plain/s3://catalog-products/180328125157907707/180412110112704260.jpg@webp",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-select-202011_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=80&.v=1621278170000",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MJ2R2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=0",
@@ -118,6 +172,12 @@ let accessories = [
         quantity: 1,
         model: "MJ2R2Z/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MJ2R2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=0",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-silver-select-202011_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=80&.v=1621278121000",
+            }
+        ]
     },
     {
         name: "iPhone 12 Pro Max Leather MagSafe Case ",
@@ -228,6 +288,12 @@ let accessories = [
         quantity: 1,
         model: "MHLM3ZM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHLM3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1623348211000",
+                palette: "https://rehasense.com/wp-content/uploads/2018/01/white-color-circles.png",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHLN3?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1601352338000",
@@ -237,6 +303,12 @@ let accessories = [
         quantity: 1,
         model: "MHLN3ZM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHLN3?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1601352338000",
+                palette: "https://rehasense.com/wp-content/uploads/2018/01/white-color-circles.png",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHLL3_AV3?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1617919460000",
@@ -246,6 +318,12 @@ let accessories = [
         quantity: 1,
         model: "MHLL3ZM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHLL3_AV3?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1617919460000",
+                palette: "https://rehasense.com/wp-content/uploads/2018/01/white-color-circles.png",
+            }
+        ]
     },
     {
         name: "iPhone Leather MagSafe Wallet",
@@ -285,6 +363,12 @@ let accessories = [
         quantity: 1,
         model: "MHXH3AM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHXH3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1603835871000",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-silver-select-202011_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=80&.v=1621278121000",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHXF3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1602179308000",
@@ -294,6 +378,12 @@ let accessories = [
         quantity: 1,
         model: "MHXF3AM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHXF3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1602179308000",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MY1W2?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1595349853000",
@@ -303,6 +393,12 @@ let accessories = [
         quantity: 1,
         model: "MY1W2AM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MY1W2?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1595349853000",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MNF72_GEO_US?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1549065917641",
@@ -312,6 +408,12 @@ let accessories = [
         quantity: 1,
         model: "MRW22LL/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MNF72_GEO_US?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1549065917641",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX0J2_GEO_US?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1573268141869",
@@ -321,6 +423,12 @@ let accessories = [
         quantity: 1,
         model: "MX0J2AM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX0J2_GEO_US?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1573268141869",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX0K2?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1618617117000",
@@ -330,6 +438,12 @@ let accessories = [
         quantity: 1,
         model: "MX0K2AM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX0K2?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1618617117000",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX0K2?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1618617117000",
@@ -339,6 +453,12 @@ let accessories = [
         quantity: 1,
         model: "MQGH2AM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX0K2?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1618617117000",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MU7T2_GEO_US?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1542406417329",
@@ -348,6 +468,12 @@ let accessories = [
         quantity: 1,
         model: "MHJA3AM/A",
         label: "Accessories",
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MU7T2_GEO_US?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1542406417329",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
     },
     {
         src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MJWY3?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1625613219000",
@@ -357,7 +483,14 @@ let accessories = [
         quantity: 1,
         model: "MJWY3AM/A",
         label: "Accessories",
-    }
+        color: [
+            {
+                src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MJWY3?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1625613219000",
+                palette: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML9A2_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1471899587067",
+            }
+        ]
+    },
+    
 
 
 ]

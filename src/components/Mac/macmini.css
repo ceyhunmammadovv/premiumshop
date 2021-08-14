@@ -1,0 +1,27 @@
+.imgs{
+    padding-bottom: 20px;
+    height: auto;
+    width: 226px;
+    max-width: 100%;
+}
+.image66{
+    margin-bottom: 14px;
+    text-align: center;
+}
+.item44{
+    padding-top: 100px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 60px 15px 30px;
+    margin: 0px 0 0 -1px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    transition: border-color .2s ease;
+}

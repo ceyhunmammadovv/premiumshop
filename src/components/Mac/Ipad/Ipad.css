@@ -1,0 +1,184 @@
+.chapternav99{
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    height: 100px;
+    z-index: 9987;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(245,245,247,0.6);
+}
+.chapternav-wrapper{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+}
+.chapternav-item2{
+    padding-bottom: 49px;
+    margin: 0 34px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    list-style: none;
+}
+.chapternav-item2{
+    display: inline-block;
+    animation: chapternav-slidein 350ms backwards;
+    animation-duration: 350ms;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    animation-name: chapternav-slidein;
+    vertical-align: top;
+    /* margin: 0 -.11765em; */
+    white-space: nowrap;
+}
+.chapternav-link{
+    color: #f5f5f7;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    margin-top: 3px;
+    position: relative;
+    z-index: 1;
+}
+.chapternav-item-ipadpro .chapternav-icon99{
+    background-size: 41px 54px;
+    background-repeat: no-repeat;
+    width: 41px;
+    background-image: url("https://www.apple.com/v/ipad/home/bo/images/chapternav/ipadpro_light__eksnhatoqzu6_large.svg");
+}
+.chapternav-icon99{
+    background: center bottom no-repeat;
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+.chapternav-item-ipadair .chapternav-icon99{
+    background-image: url("https://www.apple.com/v/ipad/home/bo/images/chapternav/ipadair_light__fwcr6ummn722_large.svg");
+    width: 30px;
+    background-size: 30px 54px;
+    background-repeat: no-repeat;
+}
+.chapternav-item-ipad8 .chapternav-icon99{
+    background-image: url("https://www.apple.com/v/ipad/home/bo/images/chapternav/ipad_light__fcshltpasu6i_large.svg");
+    width: 30px;
+    background-size: 30px 54px;
+    background-repeat: no-repeat;
+}
+.chapternav-item-ipadmini .chapternav-icon99{
+    background-image: url("https://www.apple.com/v/ipad/home/bo/images/chapternav/ipadmini_light__fax9y0phijyq_large.svg");
+    width: 22px;
+    background-size: 22px 54px;
+    background-repeat: no-repeat;
+}
+.chapternav-item-pencil .chapternav-icon99{
+    width: 3px;
+    background-size: 3px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/ipad/home/bo/images/chapternav/apple_pencil_light__b56nts0623aq_large.svg");
+}
+.chapternav-item-accessories .chapternav-icon99{
+    width: 31px;
+    background-size: 31px 54px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/ipad/home/bo/images/chapternav/ipad_acc_light__gau97p46jyye_large.svg");
+}
+
+/* .chapternav-item1 {
+    padding: 0px 40px;
+}
+.chapternav-label1{
+    color: black;
+} */
+.section-ipadpro{
+    
+    direction: ltr;
+    text-align: left;
+    position: relative;
+    padding-top: 42px;
+    padding-bottom: 135px;
+}
+.section-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+.ipad-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    flex-basis: 25%;
+    max-width: 25%;
+}
+.ipad-right{
+    flex-basis: 66.66667%;
+    max-width: 66.66667%;
+        margin-left: 8.33333%;
+}
+.ipadproimg{
+    width: 1335px;
+    height: 598px;
+    background-size: 1335px 598px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -395.5px;
+}
+.row123{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.txt123{
+    margin-top: 3px;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.txt321{
+    margin: 0;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.button111{
+    margin-bottom: 14px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+    background: #a8a8a8;
+    color: #fff;
+}

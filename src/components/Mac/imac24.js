@@ -1,12 +1,31 @@
 import { NavLink } from 'react-router-dom'
-import "../Mac/imac24.css"
+import React, { useState } from "react"
+import "../Mac/Imac24.css"
 import imac24data from "../data/imac24"
+import { useDispatch, useSelector } from "react-redux"
 
-function imac24() {
+function Imac24() {
+    const [color, setColor] = useState("black")
     const handleClick = (img, id) => {
+        setColor(img)
         var x = document.getElementById(`${id}`)
         var im = img
         x.src = `${im}`
+         }
+        const dispatch = useDispatch()
+        const cartData = useSelector(state => state.cartReducer)
+        const handleAddCart = (index) => {
+        const addedItem = cartData.find(i => Number(i.id) === Number(index.id))
+        const currentColor = index.color.map(index => index)
+        console.log(currentColor)
+
+        if (addedItem && currentColor.src === color) {
+            addedItem.quantity += 1
+        } else {
+            dispatch({ type: "ADD_CART", payload: { ...index, color: color } })
+        }
+
+        console.log(index)
     }
     return (
         <div className="row">
@@ -73,7 +92,7 @@ function imac24() {
 
             {imac24data.map((index, key) =>
                 <div key={key} className="item1">
-                    <div className="image">
+                    <div className="image22">
                         <img id={index.model} src={index.color[0].src} alt="phone" />
                     </div>
                     <div className="item-info">
@@ -99,7 +118,10 @@ function imac24() {
                             </div>
                         </div>
                     </div>
-                    <div className="item-button">
+                    <div>
+                        <input className="quantity" defaultValue='1' onChange={(e) => dispatch({ type: "ARTIR", payload: index, val: e.target.value })}  type="number" />
+                    </div>
+                    <div onClick={() => handleAddCart(index)} className="item-button22">
                         <img src="https://cdn0.it4profit.com/files/7/catalog-add-cart-icon.svg" alt="" />
                     </div>
                 </div>
@@ -108,4 +130,4 @@ function imac24() {
     )
 }
 
-export default imac24
+export default Imac24

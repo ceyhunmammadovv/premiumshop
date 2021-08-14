@@ -2,7 +2,9 @@ import { NavLink, } from 'react-router-dom'
 import React from 'react'
 import "../Apple/Apple.css"
 import iphone12pro from "../image/iphone12pro_hero.jpg"
-import ipadpro from "../image/ipad_pro_hero.jpeg"
+import ipadpro from "../Carousel/icons/icon1.jpg"
+import iphone12 from "../Carousel/icons/icon6.jpg"
+
 
 function Apple() {
     return (
@@ -67,10 +69,13 @@ function Apple() {
             </nav>
 
             <div className="apple_hero">
-                <div className="iphone12pro_features">
-                    <img className="heroimg" src="https://www.apple.com/v/home/ab/images/heroes/iphone-12/iphone_12_updated__jepm2xpxncuy_large_2x.jpg" alt="" />
-                    <img className="heroimg" src={iphone12pro} alt="" />
+                <div className="iphone12pro_featuress">
+                <img className="heroimg" src={iphone12} alt="" />
+                <img className="heroimg9" src={ipadpro} alt="" />
+                    <img className="heroimg9" src="https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/resize:fit:1400:600:0/q:100/dpr:2/plain/s3://complex-images/13/2290/2100-ru-1.png@webp" alt="" />
 
+                    <img className="heroimg9" src="https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/resize:fit:1400:600:0/q:100/dpr:2/plain/s3://complex-images/13/2292/2100-ru.png@webp" alt="" />
+                    
                 </div>
             </div>
         </div>

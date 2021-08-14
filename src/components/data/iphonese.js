@@ -1,6 +1,5 @@
 let iphonese = [
     {
-
         name: "iPhone SE 256GB",
         id: 75,
         price: 1499,
@@ -23,7 +22,6 @@ let iphonese = [
         label: "iPhone",
     },
     {
-
         name: "iPhone SE 128GB",
         id: 76,
         price: 1239,
@@ -46,7 +44,6 @@ let iphonese = [
         label: "iPhone",
     },
     {
-
         name: "iPhone SE 64GB",
         id: 77,
         price: 1099,

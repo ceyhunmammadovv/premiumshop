@@ -1,0 +1,314 @@
+.icons{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    padding-left: 15px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-container{
+    align-items: center;
+    background-color: black;
+    max-width: 1440px;
+    max-height:100px ;
+}
+.footer-row{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-left{
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+}
+.footer-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    padding-right: 25px;
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+    color: white;
+
+}
+.footer{
+    display: block !important;
+    /* margin-top: 100px; */
+    object-fit: cover;
+    box-sizing: border-box;
+    position: relative;
+    /* padding-top: 0px; */
+    border-style: none;
+    /* overflow: visible; */
+    border-left-width: 0px;
+    border-right-width: 0px;
+    box-sizing: border-box;
+    margin-bottom: calc((var(--global-nav-collective-height) + var(--gutter-width)) * -1);
+    border-color: var(--gutter-color);
+    background-color: var(--gutter-color);
+    border-bottom-width: var(--gutter-width);
+    height: calc(var(--content-height) + var(--global-nav-collective-height) + var(--gutter-width));
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding-top: var(--global-nav-collective-height);
+    height: calc(var(--content-height) + var(--global-nav-collective-height));
+    width: 1440px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    /* position: absolute; */
+    left: calc(50% + 0px);
+    /* left: 0px; */
+    transform: translatex(-50%);
+    background-color: black;
+}
+.faicon svg{
+    width: 21px;
+    height: 20px;
+    fill: #797777;
+    transition: fill .2s ease;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    
+}
+.faicon{
+    width: 35px;
+    height: 35px;
+    border: solid 1px #797777;
+    border-radius: 5px;
+    margin: 0 5px;
+
+}
+.faicon:hover{
+    border-color: white;
+    transition: fill .2s ease;
+}
+.faicon svg:hover{
+    fill: white;
+    border-color: white;
+    transition: fill .2s ease;
+}
+.insta svg{
+    width: 22px;
+    height: 22px;
+    fill: #797777;
+    transition: fill .2s ease;
+    align-items: right;
+    justify-content: right;
+    margin: 6px;
+    /* margin: 6px; */
+    /* margin-right: 1px; */
+}
+.insta{
+    width: 35px;
+    height: 35px;
+    border: solid 1px #797777;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.insta svg:hover{
+    fill: white;
+    border-color: white;
+    transition: fill .2s ease;
+}
+.insta:hover{
+    border-color: white;
+    transition: fill .2s ease;
+}
+.social{
+    cursor: pointer;
+    margin: 0 -5px 0 15px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+.twit svg{
+    width: 21px;
+    height: 20px;
+    fill: #797777;
+    transition: fill .2s ease;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    
+}
+.twit{
+    width: 35px;
+    height: 35px;
+    border: solid 1px #797777;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.twit svg:hover{
+    fill: white;
+    border-color: white;
+    transition: fill .2s ease;
+}
+.twit:hover{
+    border-color: white;
+    transition: fill .2s ease;
+}
+
+.footer-main{
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 300;
+    max-width: 1400px;
+    align-items: center;
+    background-color: black !important;
+    max-width: 1440px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.rows{
+    padding-top: 30px;
+    border-top: 1px solid #333;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin-right: 19px;
+    margin-left: 19px;
+    
+}
+.footer-list{
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+}
+.foot-nav-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.first{
+    color: #fff;
+    margin-bottom: 12px !important;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+}
+.first{
+    margin-bottom: 10px;
+}
+.list-item{
+    margin-bottom: 10px;
+}
+.list-item{
+    color: #fff;
+    opacity: .4;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: opacity .2s ease;
+    margin-bottom: 8px;
+}
+.first:hover{
+    color: #adadad;
+    margin-bottom: 12px !important;
+}
+.list-item:hover{
+    color: #cbcbcb;
+}
+.footer-contact{
+    /* height: 120px; */
+    /* padding-top: 10px; */
+    border-top: 1px solid #333;
+    background-color: black;
+}
+.payment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    margin: 15px 0;
+    position: relative;
+    width: 100%;
+    padding-right: 55px;
+    flex: 0 0 40%;
+    max-width: 40%;
+    color: white;
+}
+.visa{
+    text-align: center;
+    align-items: center;
+    width: 45px;
+    margin-right: 5px;
+
+}
+.master{
+    align-items: center;
+    width: 45px;
+    margin-right: 5px;
+}
+.payment-title{
+    padding-top: 15px;
+    padding-right: 15px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin: 15px 0;
+    position: relative;
+    width: 100%;
+    padding-left: 55px;
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.rowsss{
+
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact p{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    width: 23%;
+    padding-left: 30px;
+
+}
+.tel{
+    color: #fff;
+    opacity: .65;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+    text-decoration: none;
+}
+.unvan{
+    color: #fff;
+    opacity: .65;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+}
+.email{
+    color: #fff;
+    opacity: .65;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+}

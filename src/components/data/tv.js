@@ -6,7 +6,6 @@ let tv = [
         price: 460,
         quantity: 1,
         model: "MXGY2LL/A",
-        color: ["Silver"],
         label: "TV",
     },
     {
@@ -16,7 +15,6 @@ let tv = [
         price: 510,
         quantity: 1,
         model: "MXGY2LL/A",
-        color: ["Silver"],
         label: "TV",
     },
 ]

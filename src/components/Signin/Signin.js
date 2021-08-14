@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 import "../Signin/Signin.css"
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.css'
+import { Link } from 'react-router-dom'
 import { Form, Input, Button } from 'antd';
 
 function Signin() {
@@ -28,7 +29,7 @@ function Signin() {
                 onFinish={onFinish}
                 onFinishFailed={onFinishFailed}
             >
-                 <h1 className="txt1">Please sign in.</h1>
+                 <h1 className="txt1">Daxil Olun.</h1>
                 <Form.Item
                     
                     label="Email"
@@ -36,7 +37,7 @@ function Signin() {
                     rules={[
                         {
                             required: true,
-                            message: 'Please input your Email!',
+                            message: 'Email ünvanı səhvdir!',
                         },
                     ]}
                 >
@@ -51,7 +52,7 @@ function Signin() {
                     rules={[
                         {
                             required: true,
-                            message: 'Please input your password!',
+                            message: 'Şifrə səhvdir!',
                         },
                     ]}
                 >
@@ -67,8 +68,14 @@ function Signin() {
                     <Button type="primary" htmlType="Sign in">
                         Sign in
                     </Button>
+                    <br />
+                    <Link to="/reset"><span className="texts">Şifrənizi unutmusunuz?</span></Link>
+            <br />
+            <Link to="/registr"><span className="texts"> Hesabınız mövcud deyil? Qeydiyyatdan keç</span></Link>
                 </Form.Item>
+                
             </Form>
+
         </div>
     )
     // ReactDOM.render(<Signin />, );

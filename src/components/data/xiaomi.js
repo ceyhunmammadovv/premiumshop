@@ -1,5 +1,14 @@
 let xiaomi = [
     {
+        src: "https://www.mytrendyphone.eu/images/Xiaomi-Mi-11-5G-256GB-Midnight-Grey-6941059650942-09032021-01-p.jpg",
+        name: "Xiaomi MI 11 8GB|256GB",
+        id: 188,
+        price: 1999,
+        quantity: 1,
+        model: "Mi",
+        label: "Xiaomi",
+    },
+    {
         src: "https://kontakt.az/wp-content/uploads/2021/02/xiaomi-mi-10t-8gb128gb-lunar-silver-2.jpg",
         name: "Xiaomi Mi 10T 8GB|128GB ",
         id: 95,
@@ -9,7 +18,7 @@ let xiaomi = [
         label: "Xiaomi",
     },
     {
-        src: "https://kontakt.az/wp-content/uploads/2021/06/Xiaomi-Mi-10T-Pro-5G-8GB-128GB-Dual-Sim-Silver-4.png",
+        src: "https://www.techinn.com/f/13810/138107441_2/xiaomi-mi-10t-pro-5g-8gb-256gb-6.67-smartphone.jpg",
         name: "Xiaomi Mi 10T Pro 8GB|128GB",
         id: 96,
         price: 1239,
@@ -186,5 +195,6 @@ let xiaomi = [
         model: "Mi Band",
         label: "Accessories",
     },
+
 ]
 export default xiaomi

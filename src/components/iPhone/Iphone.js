@@ -87,29 +87,11 @@ function Iphone() {
                             </NavLink>
                         </li>
 
-                        <li className="chapternav-item chapternav-item-iphone-xr">
-                            <NavLink to="/iphonexr">
-                                <a class="chapternav-link" href="#">
-                                    <figure class="chapternav-icon"> </figure>
-                                    <span class="chapternav-label">iPhone XR</span>
-                                </a>
-                            </NavLink>
-                        </li>
-
                         <li className="chapternav-item chapternav-item-airpods">
                             <NavLink to="/airpods">
                                 <a class="chapternav-link" href="#">
                                     <figure class="chapternav-icon"> </figure>
                                     <span class="chapternav-label">AirPods</span>
-                                </a>
-                            </NavLink>
-                        </li>
-
-                        <li className="chapternav-item chapternav-item-airtag ">
-                            <NavLink to="/airtag">
-                                <a class="chapternav-link" href="#">
-                                    <figure class="chapternav-icon"> </figure>
-                                    <span class="chapternav-label">AirTag</span>
                                 </a>
                             </NavLink>
                         </li>
@@ -129,9 +111,9 @@ function Iphone() {
             <div className="lift-transition-sticky-content">
                 <div className="container">
                     <h1 class="hero-eyebrow">iPhone 12 Pro and iPhone 12 Pro Max</h1>
-                    <h2 className="text2">It’s a leap year.</h2>
-                    <p className="text1">Say hello to the fastest smartphone chip ever. 5G speed. An advanced dual-camera system. Ceramic Shield for 4x better drop performance. And a brighter, more colorful OLED display. iPhone 12 is a total powerhouse — in two great sizes.</p>
-                    <Link to="/iphone12promax"><button className="btn">Buy</button></Link>
+                    <h2 className="text2">Bir sıçrayış ilidir.</h2>
+                    <p className="text1">İndiyə qədərki ən sürətli smartfon çipinə salam deyin. 5G sürəti. İnkişaf etmiş ikili kamera sistemi. 4 qat daha yaxşı düşmə performansı üçün Seramik Qalxan. Və daha parlaq, daha rəngli OLED ekran. iPhone 12, iki böyük ölçüdə ümumi bir güc mərkəzidir.</p>
+                    <Link to="/iphone12promax"><button className="btn55">Indi alın</button></Link>
                 </div>
             </div>
 

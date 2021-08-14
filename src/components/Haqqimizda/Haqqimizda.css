@@ -1,0 +1,31 @@
+.row890{
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: -20px;
+}
+.about-main{
+    position: relative;
+    height: 350px;
+    padding-bottom: 40px;
+    margin: 0px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.about-title{
+    margin: 0px 0 10px 0px;
+    padding: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.about-text{ 
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.about-text p{
+    margin: 0 0 10px;
+}

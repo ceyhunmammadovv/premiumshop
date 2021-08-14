@@ -1,0 +1,25 @@
+.mexfilik-title{
+    margin: 0px 0 10px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.mexfilik-text{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.mexfilik-text p{
+    margin: 0 0 10px;
+}
+.mexfilik{
+    /* height: 350px; */
+    padding-bottom: 40px;
+    margin: 0px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.mexfilik-title h1{
+    padding-top: 30px;
+}

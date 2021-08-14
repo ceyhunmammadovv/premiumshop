@@ -67,15 +67,15 @@ function Home() {
                 {cardata.map((index, key) =>
                     <div className="main">
                         <div key={key} className="card">
-                            <div className="images">
+                            <div className="imagess">
                                 <img id={index.model} src={index.src} alt="phone" />
                             </div>
                             <div className="name">
                                 <a href="#"> {index.name} </a>
                             </div>
-                            <p className="item-sku"> Artikul: {index.model} </p>
+                            <p className="itemsku1"> Artikul: {index.model} </p>
                             <div className="button1">
-                                <div className="prices">
+                                <div className="pricess">
                                     <p>{index.price} AZN</p>
                                 </div>
                                 <div onClick={() => handleClick(index.src, index.model)} className="button" onClick={() => handleAddCart(index)}>
@@ -88,20 +88,19 @@ function Home() {
             </Carousel>
             <br />
             <br />
-
             <Carousel responsive={responsive}>
                 {accdata.map((index, key) =>
                     <div className="main">
                         <div key={key} className="card">
-                            <div className="images">
+                            <div className="imagess">
                                 <img id={index.model} src={index.src} alt="phone" />
                             </div>
                             <div className="name">
                                 <a href="#"> {index.name} </a>
                             </div>
-                            <p className="item-sku"> Artikul: {index.model} </p>
+                            <p className="itemsku1"> Artikul: {index.model} </p>
                             <div className="button1">
-                                <div className="prices">
+                                <div className="pricess">
                                     <p>{index.price} AZN</p>
                                 </div>
                                 <div onClick={() => handleClick(index.src, index.model)} className="button" onClick={() => handleAddCart(index)}>
@@ -112,19 +111,8 @@ function Home() {
                     </div>
                 )}
             </Carousel>
-
-
-            {/* 
-            <div className="homepage_section">
-
-                <div className="iphone12pro_features">
-
-                    <img className="heroimg" src={img1} alt="" />
-                </div>
-
-            </div> */}
-
-
+            <br />
+            <br />
         </div>
 
 

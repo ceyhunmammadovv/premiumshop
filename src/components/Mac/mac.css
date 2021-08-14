@@ -1,4 +1,4 @@
-.chapternav1{
+.chapternav10{
     padding: 0;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -59,48 +59,48 @@
     position: relative;
     z-index: 1;
 }
-.chapternav-item-macbookair .chapternav-icon{
+.chapternav-item-macbookair .chapternav-icon9{
     width: 52px;
     height: 54px;
     background-size: 52px 54px;
     background-repeat: no-repeat;
     background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/macbookair_light__fj8r9488gr6u_large.svg");
 }
-.chapternav-icon{
+.chapternav-icon9{
     background: center bottom no-repeat;
     display: block;
     margin: 0 auto 7px;
     height: 54px;
 }
-.chapternav-item-macbookpro13 .chapternav-icon{
+.chapternav-item-macbookpro13 .chapternav-icon9{
     width: 51px;
     height: 54px;
     background-size: 51px 54px;
     background-repeat: no-repeat;
     background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/macbook_pro_13_light__erjvypflcis2_large.svg");
 }
-.chapternav-item-macbookpro16 .chapternav-icon{
+.chapternav-item-macbookpro16 .chapternav-icon9{
     width: 58px;
     height: 54px;
     background-size: 58px 54px;
     background-repeat: no-repeat;
     background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/macbook_pro_16_light__cialfoihbk02_large.svg");
 }
-.chapternav-item-imac24 .chapternav-icon{
+.chapternav-item-imac24 .chapternav-icon9{
     width: 45px;
     height: 54px;
     background-size: 45px 54px;
     background-repeat: no-repeat;
     background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/imac_24__e0tdvilut5qq_large.svg");
 }
-.chapternav-item-macmini .chapternav-icon{
+.chapternav-item-macmini .chapternav-icon9{
     width: 28px;
     height: 54px;
     background-size: 28px 54px;
     background-repeat: no-repeat;
     background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/mac_mini_light__chxdj29efvrm_large.svg");
 }
-.chapternav-item-accessories2 .chapternav-icon{
+.chapternav-item-accessories2 .chapternav-icon9{
     width: 33px;
     height: 54px;
     background-size: 33px 54px;
@@ -156,7 +156,7 @@
     letter-spacing: -.022em;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
-.product_link{
+.product_links{
     margin-left: 690px !important;
     cursor: pointer;
     display: flex;
@@ -173,8 +173,8 @@
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 980px;
-    background: #0071e3;
-    border-color: #0071e3;
+    background: #777777;
+    border-color: #5a5a5a;
     color: #fff;
 }
 .new{
@@ -192,4 +192,14 @@
     line-height: 1.47059;
     letter-spacing: -.022em;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.product_links{
+    background: #9e9e9e;
+    border-color: #505050;
+    transition: 0.5s;
+}
+
+.product_links:hover{
+    /* transition: 0.5s; */
+    background-color: #5a5a5a;
 }

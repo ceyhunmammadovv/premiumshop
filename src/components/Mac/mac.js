@@ -71,7 +71,7 @@ function mac() {
                 <p className="hero_text">Say Hello.</p>
                 <p className="hero_price">from 3259 AZN </p>
                 <Link to="/imac24">
-                <button className="product_link">Buy</button>
+                <button className="product_links">Buy</button>
                 </Link>
                 <div className="mac_hero">
                     <figure className="hero-imac-24-image"></figure>

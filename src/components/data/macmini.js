@@ -6,7 +6,6 @@ let macmini = [
         price: 1760,
         quantity: 1,
         model: " MGNR3LL/A",
-        color: ["Space Gray", "Silver"],
         label: "Mac",
     },
     {
@@ -16,7 +15,6 @@ let macmini = [
         price: 2240,
         quantity: 1,
         model: " MGNR3LL/A",
-        color: ["Space Gray", "Silver"],
         label: "Mac",
     },
 ]
